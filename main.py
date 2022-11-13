@@ -70,19 +70,48 @@
 # print(result)
 
 
-import  re
-
-def is_valid(text):
-    if re.match(r' ', text):
-        return True
-    return False
-
-print(is_valid())
+# import  re
+#
+# def is_valid(text):
+#     if re.match(r'hello', text):  #находит то, что в начале строки
+#         return True               #есть в начале строки
+#     return False                  #нет в начале строки
+#
+# print(is_valid('hello world'))
+# print(is_valid('world hello'))
 
 
 # import re
 # def letters_only(text):
-#     return re.sub(r'YOUR REGEX CODE', '', text)
+#     return re.sub(r'муит', 'Международный Университет Информационных Технологии', text)   # заменяет слово
+#
+# print(letters_only('муит'))
+
+
+# findall - ищет все совпадения
+# search - ищет по всей строчке, но возвращает только первое совпадение
+# match - ищет слово в начале строки
+# sub - заменяет слово в строке
+# r"\w" - возвращает все буквы
+# r"\w+" - возвращает все слова
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
